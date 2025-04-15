@@ -9,7 +9,7 @@ struct Stack {
 	int stack_length{ 0 };
 };
 
-//构造一个空栈s
+//构造一个空栈s，并初始化。
 void initStack(Stack& s) {
 	s.base = new int[MAXSIZE];
 	s.top = s.base;
