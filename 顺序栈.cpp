@@ -68,7 +68,7 @@ int stackLength(Stack& s) {
 	return s.stack_length;
 }
 
-//从栈底到栈顶依次打印出s的每个数据元素
+//从栈底到栈顶依次打印出s的每个数据元素。
 void stackTraverse(Stack& s) {
 	for (auto it = s.base; it != s.top; ++it) {
 		std::cout << *it << " ";
